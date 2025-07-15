@@ -27,40 +27,52 @@
           <span class="gradient-text">The Dongle Japes</span>
         </h1>
         <p class="hero-subtitle">
-          A legendary friend group forged in chaos, sustained by memes, and powered by tacos.
+          High school friends who discovered that distance means nothing when you have Discord, shared playlists, and an endless supply of inside jokes.
         </p>
         <p class="hero-motto">
           "We came for the dongles, we stayed for the japes."
         </p>
         <div class="hero-actions">
           <a href="#about" class="button">Meet the Crew</a>
-          <a href="#discord" class="button button-secondary">Join Discord</a>
+          <a href="https://discord.com/channels/817843318880862298/817843318880862300" target="_blank" class="button button-secondary">Discord</a>
         </div>
       </div>
       
       <div class="hero-visual animate-fadeIn">
-        <div class="member-avatars">
-          {#each members as member}
-            <img 
-              src={member.avatar} 
-              alt={member.name}
-              class="hero-avatar"
-              title={member.discordName}
-            />
-          {/each}
-        </div>
-        <div class="stats-preview">
-          <div class="stat">
-            <span class="stat-number">{discordStats.totalMessages.toLocaleString()}</span>
-            <span class="stat-label">Messages Sent</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number">{discordStats.voiceHours}</span>
-            <span class="stat-label">Voice Hours</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number">{musicLeagueRounds.length}</span>
-            <span class="stat-label">Music Rounds</span>
+        <div class="social-links">
+          <h3>Connect With Us</h3>
+          <div class="links-grid">
+            <a href="https://discord.com/channels/817843318880862298/817843318880862300" target="_blank" class="social-link card">
+              <div class="social-icon">💬</div>
+              <div class="social-info">
+                <h4>Discord</h4>
+                <p>Our digital headquarters</p>
+              </div>
+            </a>
+            
+            <a href="https://groupme.com/join_group/14807452/08SYus" target="_blank" class="social-link card">
+              <div class="social-icon">📱</div>
+              <div class="social-info">
+                <h4>GroupMe</h4>
+                <p>Quick chats on the go</p>
+              </div>
+            </a>
+            
+            <a href="https://docs.google.com/spreadsheets/d/1fH_nLo9NMX9f5e0pnZe1rX0jhAHK4Ex-CnA9ZCkQ3RM/edit?gid=0#gid=0" target="_blank" class="social-link card">
+              <div class="social-icon">📊</div>
+              <div class="social-info">
+                <h4>Record Club Sheets</h4>
+                <p>Album reviews & ratings</p>
+              </div>
+            </a>
+            
+            <a href="https://app.musicleague.com/l/04c6de304dd741b898832561a62a18e4/" target="_blank" class="social-link card">
+              <div class="social-icon">🎵</div>
+              <div class="social-info">
+                <h4>Music League</h4>
+                <p>Musical battlegrounds</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -84,15 +96,16 @@
       <div class="origin-story card">
         <h3>Our Origin Story</h3>
         <p>
-          It all started with a simple question: "What even is a dongle?" That innocent inquiry 
-          sparked a 3-hour philosophical debate about USB adapters, which somehow evolved into 
-          the greatest friendship Discord server in recorded history. We're not entirely sure 
-          how it happened, but we're not questioning it.
+          Four friends from high school who discovered that graduation doesn't have to mean goodbye. 
+          When life scattered us across different cities and colleges, we found our home base in 
+          Discord—where distance became irrelevant and friendships grew stronger through shared 
+          playlists, endless memes, and 3 AM philosophical debates about dongles.
         </p>
         <p>
-          Since March 2020, The Dongle Japes have been setting the gold standard for friend 
-          group chaos. From legendary Music League battles to late-night taco pilgrimages, 
-          we've turned procrastination into an art form and inside jokes into a lifestyle.
+          Since March 2020, The Dongle Japes have been setting the gold standard for long-distance 
+          friendship. From intense Music League competitions that reveal questionable taste to 
+          Record Club sessions that spark passionate album debates, we've proven that the best 
+          bonds are built on inside jokes, musical discovery, and an unhealthy obsession with tacos.
         </p>
       </div>
     </div>
@@ -422,50 +435,55 @@
     color: white;
   }
   
-  .member-avatars {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--space-md);
-    margin-bottom: var(--space-xl);
-  }
   
-  .hero-avatar {
-    width: 120px;
-    height: 120px;
-    border-radius: var(--radius-full);
-    object-fit: cover;
-    border: 4px solid var(--color-border);
-    transition: transform var(--transition-base);
-  }
-  
-  .hero-avatar:hover {
-    transform: scale(1.1);
-  }
-  
-  .stats-preview {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-md);
+  .social-links {
     text-align: center;
   }
   
-  .stat {
-    padding: var(--space-md);
-    background: var(--color-bg-secondary);
-    border-radius: var(--radius-lg);
-    border: 1px solid var(--color-border);
+  .social-links h3 {
+    margin-bottom: var(--space-xl);
+    color: var(--color-text);
   }
   
-  .stat-number {
-    display: block;
-    font-size: var(--text-2xl);
-    font-weight: 700;
+  .links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-lg);
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    text-decoration: none;
+    transition: transform var(--transition-base), background var(--transition-base);
+    padding: var(--space-lg);
+  }
+  
+  .social-link:hover {
+    transform: translateY(-4px);
+    background: var(--color-bg-tertiary);
+  }
+  
+  .social-icon {
+    font-size: var(--text-3xl);
+    flex-shrink: 0;
+  }
+  
+  .social-info {
+    text-align: left;
+  }
+  
+  .social-info h4 {
+    margin: 0 0 var(--space-xs) 0;
     color: var(--color-primary);
+    font-size: var(--text-lg);
   }
   
-  .stat-label {
-    font-size: var(--text-sm);
+  .social-info p {
+    margin: 0;
     color: var(--color-text-secondary);
+    font-size: var(--text-sm);
   }
   
   /* Sections */
@@ -766,18 +784,17 @@
       text-align: center;
     }
     
-    .member-avatars {
-      grid-template-columns: repeat(4, 1fr);
-      justify-items: center;
-    }
-    
-    .hero-avatar {
-      width: 80px;
-      height: 80px;
-    }
-    
-    .stats-preview {
+    .links-grid {
       grid-template-columns: 1fr;
+    }
+    
+    .social-link {
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .social-info {
+      text-align: center;
     }
     
     .contact-content {
