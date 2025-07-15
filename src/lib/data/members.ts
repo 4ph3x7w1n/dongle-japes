@@ -128,5 +128,230 @@ export const members: Member[] = [
         earnedDate: '2023-11-05'
       }
     ]
+  },
+  {
+    id: 'tom',
+    name: 'Tom',
+    discordName: 'Tom',
+    avatar: '/pics/placeholder.svg',
+    bio: 'One of the legendary Dongle Japes crew members.',
+    role: 'Crew Member',
+    catchphrase: 'Ready for anything!',
+    favoriteQuotes: [
+      'Count me in!',
+      'That sounds fun',
+      'Let\'s do this'
+    ],
+    birthday: '1995-01-01',
+    joinDate: '2020-03-01',
+    achievements: [
+      {
+        id: 'loyal-member',
+        name: 'Loyal Member',
+        description: 'Been with the crew since the beginning',
+        icon: '🤝',
+        earnedDate: '2020-03-01'
+      }
+    ]
+  },
+  {
+    id: 'jace',
+    name: 'Jace',
+    discordName: 'Jace',
+    avatar: '/pics/placeholder.svg',
+    bio: 'One of the legendary Dongle Japes crew members.',
+    role: 'Crew Member',
+    catchphrase: 'Always bringing the energy!',
+    favoriteQuotes: [
+      'Let\'s go!',
+      'That\'s wild',
+      'I\'m down'
+    ],
+    birthday: '1995-01-01',
+    joinDate: '2020-03-01',
+    achievements: [
+      {
+        id: 'loyal-member',
+        name: 'Loyal Member',
+        description: 'Been with the crew since the beginning',
+        icon: '🤝',
+        earnedDate: '2020-03-01'
+      }
+    ]
+  },
+  {
+    id: 'alex',
+    name: 'Alex',
+    discordName: 'Alex',
+    avatar: '/pics/placeholder.svg',
+    bio: 'One of the legendary Dongle Japes crew members.',
+    role: 'Crew Member',
+    catchphrase: 'Keeping it real!',
+    favoriteQuotes: [
+      'Makes sense',
+      'Good point',
+      'I see what you mean'
+    ],
+    birthday: '1995-01-01',
+    joinDate: '2020-03-01',
+    achievements: [
+      {
+        id: 'loyal-member',
+        name: 'Loyal Member',
+        description: 'Been with the crew since the beginning',
+        icon: '🤝',
+        earnedDate: '2020-03-01'
+      }
+    ]
+  },
+  {
+    id: 'size',
+    name: 'Size',
+    discordName: 'Size',
+    avatar: '/pics/placeholder.svg',
+    bio: 'One of the legendary Dongle Japes crew members.',
+    role: 'Crew Member',
+    catchphrase: 'Size matters!',
+    favoriteQuotes: [
+      'That\'s huge!',
+      'Big moves only',
+      'Go big or go home'
+    ],
+    birthday: '1995-01-01',
+    joinDate: '2020-03-01',
+    achievements: [
+      {
+        id: 'loyal-member',
+        name: 'Loyal Member',
+        description: 'Been with the crew since the beginning',
+        icon: '🤝',
+        earnedDate: '2020-03-01'
+      }
+    ]
+  },
+  {
+    id: 'chadwick',
+    name: 'Chadwick',
+    discordName: 'Chadwick',
+    avatar: '/pics/placeholder.svg',
+    bio: 'One of the legendary Dongle Japes crew members.',
+    role: 'Crew Member',
+    catchphrase: 'Chad energy activated!',
+    favoriteQuotes: [
+      'That\'s so chad',
+      'Alpha move',
+      'Based'
+    ],
+    birthday: '1995-01-01',
+    joinDate: '2020-03-01',
+    achievements: [
+      {
+        id: 'loyal-member',
+        name: 'Loyal Member',
+        description: 'Been with the crew since the beginning',
+        icon: '🤝',
+        earnedDate: '2020-03-01'
+      }
+    ]
+  },
+  {
+    id: 'stephen',
+    name: 'Stephen',
+    discordName: 'Stephen',
+    avatar: '/pics/placeholder.svg',
+    bio: 'One of the legendary Dongle Japes crew members.',
+    role: 'Crew Member',
+    catchphrase: 'Stephen knows best!',
+    favoriteQuotes: [
+      'Actually...',
+      'Here\'s the thing',
+      'From my experience'
+    ],
+    birthday: '1995-01-01',
+    joinDate: '2020-03-01',
+    achievements: [
+      {
+        id: 'loyal-member',
+        name: 'Loyal Member',
+        description: 'Been with the crew since the beginning',
+        icon: '🤝',
+        earnedDate: '2020-03-01'
+      }
+    ]
+  },
+  {
+    id: 'ryan',
+    name: 'Ryan',
+    discordName: 'Ryan',
+    avatar: '/pics/placeholder.svg',
+    bio: 'One of the legendary Dongle Japes crew members.',
+    role: 'Crew Member',
+    catchphrase: 'Ryan\'s got this!',
+    favoriteQuotes: [
+      'No worries',
+      'I got you',
+      'Let me handle this'
+    ],
+    birthday: '1995-01-01',
+    joinDate: '2020-03-01',
+    achievements: [
+      {
+        id: 'loyal-member',
+        name: 'Loyal Member',
+        description: 'Been with the crew since the beginning',
+        icon: '🤝',
+        earnedDate: '2020-03-01'
+      }
+    ]
+  },
+  {
+    id: 'tyler',
+    name: 'Tyler',
+    discordName: 'Tyler',
+    avatar: '/pics/placeholder.svg',
+    bio: 'One of the legendary Dongle Japes crew members.',
+    role: 'Crew Member',
+    catchphrase: 'Tyler time!',
+    favoriteQuotes: [
+      'That\'s cool',
+      'Interesting',
+      'Tell me more'
+    ],
+    birthday: '1995-01-01',
+    joinDate: '2020-03-01',
+    achievements: [
+      {
+        id: 'loyal-member',
+        name: 'Loyal Member',
+        description: 'Been with the crew since the beginning',
+        icon: '🤝',
+        earnedDate: '2020-03-01'
+      }
+    ]
+  },
+  {
+    id: 'phil',
+    name: 'Phil',
+    discordName: 'Phil',
+    avatar: '/pics/placeholder.svg',
+    bio: 'One of the legendary Dongle Japes crew members.',
+    role: 'Crew Member',
+    catchphrase: 'Phil\'s philosophy!',
+    favoriteQuotes: [
+      'That\'s deep',
+      'Makes you think',
+      'Philosophical'
+    ],
+    birthday: '1995-01-01',
+    joinDate: '2020-03-01',
+    achievements: [
+      {
+        id: 'loyal-member',
+        name: 'Loyal Member',
+        description: 'Been with the crew since the beginning',
+        icon: '🤝',
+        earnedDate: '2020-03-01'
+      }
+    ]
   }
 ];

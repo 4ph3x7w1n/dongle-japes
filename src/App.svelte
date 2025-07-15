@@ -84,7 +84,7 @@
     <div class="container">
       <h2 class="section-title">Meet The Dongle Japes</h2>
       <p class="section-subtitle">
-        Four friends who turned a Discord server into a digital home
+        A legendary crew of friends who turned a Discord server into a digital home
       </p>
       
       <div class="members-grid">
@@ -96,7 +96,7 @@
       <div class="origin-story card">
         <h3>Our Origin Story</h3>
         <p>
-          Four friends from high school who discovered that graduation doesn't have to mean goodbye. 
+          A tight-knit group of friends from high school who discovered that graduation doesn't have to mean goodbye. 
           When life scattered us across different cities and colleges, we found our home base in 
           Discord—where distance became irrelevant and friendships grew stronger through shared 
           playlists, endless memes, and 3 AM philosophical debates about dongles.
