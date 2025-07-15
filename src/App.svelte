@@ -2,6 +2,8 @@
   import { onMount } from 'svelte';
   import Navigation from '$lib/components/Navigation.svelte';
   import MemberCard from '$lib/components/MemberCard.svelte';
+  import RecordClub from '$lib/components/RecordClub.svelte';
+  import MusicLeagueAnalytics from '$lib/components/MusicLeagueAnalytics.svelte';
   import { theme } from '$lib/stores/theme';
   import { members } from '$lib/data/members';
   import { loreEntries } from '$lib/data/lore';
@@ -125,38 +127,17 @@
     </div>
   </section>
 
-  <!-- Music League Section -->
+  <!-- Music League Analytics Section -->
   <section id="music" class="section">
     <div class="container">
-      <h2 class="section-title">Music League & Record Club</h2>
-      <p class="section-subtitle">
-        Where musical taste goes to die... gloriously
-      </p>
-      
-      <div class="music-rounds">
-        {#each musicLeagueRounds as round}
-          <div class="music-round card">
-            <h3>{round.theme}</h3>
-            <div class="round-info">
-              <span class="round-date">{new Date(round.date).toLocaleDateString()}</span>
-              <span class="round-winner">👑 Winner: {members.find(m => m.id === round.winner)?.discordName}</span>
-            </div>
-            
-            <div class="submissions">
-              {#each round.submissions as submission}
-                {@const member = members.find(m => m.id === submission.memberId)}
-                <div class="submission">
-                  <div class="submission-info">
-                    <strong>{submission.song}</strong> by {submission.artist}
-                    <br>
-                    <small>Submitted by {member?.discordName} • {submission.votes} votes</small>
-                  </div>
-                </div>
-              {/each}
-            </div>
-          </div>
-        {/each}
-      </div>
+      <MusicLeagueAnalytics />
+    </div>
+  </section>
+  
+  <!-- Record Club Section -->
+  <section id="records" class="section bg-secondary">
+    <div class="container">
+      <RecordClub />
     </div>
   </section>
 
@@ -343,6 +324,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#lore">Lore</a></li>
           <li><a href="#music">Music League</a></li>
+          <li><a href="#records">Record Club</a></li>
           <li><a href="#discord">Discord</a></li>
         </ul>
       </div>
@@ -591,34 +573,6 @@
     color: var(--color-text-secondary);
   }
   
-  /* Music Rounds */
-  .music-rounds {
-    display: grid;
-    gap: var(--space-xl);
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-  
-  .round-info {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: var(--space-lg);
-    color: var(--color-text-secondary);
-    flex-wrap: wrap;
-    gap: var(--space-sm);
-  }
-  
-  .submissions {
-    display: grid;
-    gap: var(--space-md);
-  }
-  
-  .submission {
-    padding: var(--space-md);
-    background: var(--color-bg-tertiary);
-    border-radius: var(--radius-md);
-    border-left: 4px solid var(--color-primary);
-  }
   
   /* Events */
   .events-grid {

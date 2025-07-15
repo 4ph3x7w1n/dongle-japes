@@ -10,6 +10,7 @@
     { href: '#about', label: 'About' },
     { href: '#lore', label: 'Lore' },
     { href: '#music', label: 'Music League' },
+    { href: '#records', label: 'Record Club' },
     { href: '#events', label: 'Events' },
     { href: '#birthdays', label: 'Birthdays' },
     { href: '#discord', label: 'Discord' },

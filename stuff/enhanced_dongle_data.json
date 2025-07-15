@@ -1,0 +1,151 @@
+{
+  "music_league": {
+    "overview": {
+      "total_rounds": 10,
+      "total_submissions": 118,
+      "total_votes": 1016,
+      "participants": 14
+    },
+    "core_members": [
+      {
+        "name": "Chris Manning",
+        "id": "201cc8e3af8249c5ba57f2e8d6235fb2",
+        "stats": {
+          "wins": 1,
+          "avg_points_received": 12,
+          "signature_song": "Dongle Japes Theme Song by Dongle Japes",
+          "voting_style": "Critical"
+        }
+      },
+      {
+        "name": "Max Voorhees",
+        "id": "529211ec9c42438f9162e38917f2eeef",
+        "stats": {
+          "wins": 0,
+          "avg_points_received": 16,
+          "signature_song": "Bored In The USA by Father John Misty",
+          "voting_style": "Generous"
+        }
+      },
+      {
+        "name": "UnclePhil (adamhudzik55)",
+        "id": "aac8b2b830694c88ba1567e463def3ac",
+        "stats": {
+          "wins": 0,
+          "avg_points_received": 10,
+          "signature_song": "Sam by Sturgill Simpson",
+          "voting_style": "Critical"
+        }
+      },
+      {
+        "name": "Dylan Graves",
+        "id": "d45b3a6a10ba40218745e3fe18f0d4b8",
+        "stats": {
+          "wins": 2,
+          "avg_points_received": 8,
+          "signature_song": "Laylow by My Morning Jacket",
+          "voting_style": "Critical"
+        }
+      }
+    ],
+    "rounds": [
+      {
+        "name": "Hereditary",
+        "description": "Your favorite song that was your parents favorite song",
+        "winner": "Tyler Forbes",
+        "winning_song": "Bennie And The Jets - Remastered 2014"
+      },
+      {
+        "name": "27 Club",
+        "description": "Your favorite track from an artist that was gone too soon",
+        "winner": "Tom Shirey",
+        "winning_song": "Notorious Thugs (feat. Bone Thugs-n-Harmony) - 2007 Remaster"
+      },
+      {
+        "name": "Shorties",
+        "description": "Songs that are less than 2 minutes long",
+        "winner": "UnclePhil",
+        "winning_song": "Sam"
+      },
+      {
+        "name": "Free Space",
+        "description": "No Rules, Just Vibes",
+        "winner": "jbounds",
+        "winning_song": "V\u00e1monos De Viaje"
+      },
+      {
+        "name": "Soaking",
+        "description": "Songs that reference a body of water or other aquatic connotation in the title or lyrics ",
+        "winner": "Dylan Graves",
+        "winning_song": "We Are Water"
+      },
+      {
+        "name": "Slept On",
+        "description": "Songs by artists with less than 400k Spotify listeners",
+        "winner": "jbounds",
+        "winning_song": "Soul Brother"
+      },
+      {
+        "name": "Mr Please Cover Suggestions ",
+        "description": "What song should Mr Please play at their next show",
+        "winner": "Chris Manning",
+        "winning_song": "Dongle Japes Theme Song"
+      },
+      {
+        "name": "The New New",
+        "description": "Favorite track released so far in 2025",
+        "winner": "Ryan Chadwick",
+        "winning_song": "ENTROPIA"
+      },
+      {
+        "name": "Oroku Saki",
+        "description": "Track that displays your favorite guitar performance",
+        "winner": "Dylan Graves",
+        "winning_song": "Laylow"
+      },
+      {
+        "name": "Taking My Talents",
+        "description": "Favorite track by an artist who went solo after achieving fame in a group",
+        "winner": "Ryan Chadwick",
+        "winning_song": "Buk-In-Hamm Palace - 2002 Remaster"
+      }
+    ]
+  },
+  "record_club": {
+    "note": "Structure to be determined from Excel file analysis",
+    "suggested_structure": {
+      "albums": [
+        {
+          "title": "Album Title",
+          "artist": "Artist Name",
+          "reviewer": "Member Name",
+          "review_date": "YYYY-MM-DD",
+          "rating": "X/10",
+          "review_text": "Review content",
+          "favorite_tracks": [
+            "Track 1",
+            "Track 2"
+          ],
+          "discussion_notes": "Group discussion highlights"
+        }
+      ],
+      "members": [
+        {
+          "name": "Member Name",
+          "albums_reviewed": 0,
+          "avg_rating": 0.0,
+          "favorite_genres": [
+            "Genre 1",
+            "Genre 2"
+          ]
+        }
+      ],
+      "statistics": {
+        "total_albums_reviewed": 0,
+        "avg_rating_overall": 0.0,
+        "most_active_reviewer": "Name",
+        "highest_rated_album": "Album Title"
+      }
+    }
+  }
+}
