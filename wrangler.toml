@@ -1,0 +1,27 @@
+name = "dongle-japes"
+main = "build/index.js"
+compatibility_date = "2024-01-01"
+
+[site]
+bucket = "./build"
+
+[env.production]
+name = "dongle-japes-prod"
+
+# Placeholder values - replace with your actual Cloudflare account details
+account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+workers_dev = true
+route = ""
+zone_id = ""
+
+# Environment variables (placeholders)
+[env.production.vars]
+DISCORD_BOT_TOKEN = "YOUR_DISCORD_BOT_TOKEN"
+DISCORD_SERVER_ID = "YOUR_DISCORD_SERVER_ID"
+SPOTIFY_CLIENT_ID = "YOUR_SPOTIFY_CLIENT_ID"
+SPOTIFY_CLIENT_SECRET = "YOUR_SPOTIFY_CLIENT_SECRET"
+
+# KV namespaces (if needed for data storage)
+# [[kv_namespaces]]
+# binding = "DONGLE_DATA"
+# id = "YOUR_KV_NAMESPACE_ID"
